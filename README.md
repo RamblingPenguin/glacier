@@ -76,3 +76,7 @@ public class MyService implements Startable, Stoppable {
     }
 }
 ```
+
+## License
+
+[MIT License](LICENSE)
