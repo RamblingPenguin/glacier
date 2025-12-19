@@ -7,7 +7,7 @@
     <groupId>com.ramblingpenguin</groupId>
     <artifactId>glacier</artifactId>
     <packaging>jar</packaging>
-    <version>0.1-SNAPSHOT</version>
+    <version>0.1.1</version>
 
     <name>Glacier</name>
     <description>A foundational library for Rambling Penguin projects.</description>
