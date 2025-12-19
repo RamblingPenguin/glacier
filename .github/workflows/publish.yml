@@ -40,7 +40,7 @@ jobs:
           fi
 
       - name: Publish to Maven Central
-        run: mvn --batch-mode deploy -P release
+        run: mvn --batch-mode deploy -P release -Dgpg.passphrase="${{ secrets.GPG_PASSPHRASE }}"
         env:
           MAVEN_USERNAME: ${{ secrets.OSSRH_USERNAME }}
           MAVEN_PASSWORD: ${{ secrets.OSSRH_TOKEN }}
