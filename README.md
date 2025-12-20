@@ -8,14 +8,22 @@ Glacier is a lightweight Java library that provides a set of standard interfaces
 
 ## Installation
 
-To use Glacier in your Maven project, add the following dependency to your `pom.xml`:
+Glacier is available on Maven Central. Find the latest version [here](https://mvnrepository.com/artifact/com.ramblingpenguin/glacier).
 
+To use it in your project, add the dependency to your build file:
+
+**Maven:**
 ```xml
 <dependency>
     <groupId>com.ramblingpenguin</groupId>
     <artifactId>glacier</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>0.1.1</version>
 </dependency>
+```
+
+**Gradle (Kotlin):**
+```kotlin
+implementation("com.ramblingpenguin:glacier:0.1.1")
 ```
 
 ## Features
